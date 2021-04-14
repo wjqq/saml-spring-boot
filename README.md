@@ -1,15 +1,20 @@
 # saml-spring-boot
 
-~~~1 - refer to : https://www.youtube.com/watch?v=ATdCwJXMsAQ
 
-~~~2 - my okta app on okta. (account: wj21067855@gmail.com)
+
+
+
+
+### - refer to : https://www.youtube.com/watch?v=ATdCwJXMsAQ
+
+###  - my okta app on okta. (account: wj21067855@gmail.com)
 https://dev-29281223.okta.com/app/exkl01qupN298GybC5d6/sso/saml/metadata
 
-~~~3 - setting steps by steps
+###  - setting steps by steps
 https://developer.okta.com/blog/2017/03/16/spring-boot-saml
 
 
-# Get user info from saml TOKEN
+###  Get user info from saml TOKEN
   @RequestMapping("/")
   public String index(ExpiringUsernameAuthenticationToken userToken, Model model) {
 
